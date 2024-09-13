@@ -45,7 +45,7 @@ def get_artist_data(artist_id, token):
     return artist_data['name'], artist_data['popularity'], artist_data['followers']['total']
 
 # *Reemplaza el artist_id con el ID del artista que quieres rastrear*
-artist_id = '4Mog1FbXl6GNIIVwmlJ1oL'  # Aquí pones el ID del artista que deseas
+artist_id = '2QpRYjtwNg9z6KwD4fhC5h'  # Aquí pones el ID del artista que deseas
 
 # Obtenemos el token de acceso
 token = get_token()
